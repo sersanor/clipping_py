@@ -14,7 +14,7 @@ outputFile = "sal.csv"
 fr = open(inputFile, 'r')
 fw = open(outputFile, 'w')
 writer = csv.writer(fw, delimiter=",")
-writer.writerow(["Book","Location","Text","Hash"])
+writer.writerow(["Hash","Book","Location","Text"])
 auxList = []
 count = 0
 for i in fr:
